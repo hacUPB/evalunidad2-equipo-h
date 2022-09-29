@@ -1,2 +1,2 @@
 free(): invalid pointer
-../tester/run-tests.sh: line 27:  5878 Aborted                 (core dumped) ./main < tests/7.in
+../tester/run-tests.sh: line 27:  8780 Aborted                 (core dumped) ./main < tests/7.in
