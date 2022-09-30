@@ -14,11 +14,7 @@ EventList *CreateEventList(void)
 
 void DestroyEventList(EventList *this)
 {
-    for (int i = 0; i < strlen(this); i++)
-    {
-        free(this);
-        this ++;
-    }
+    free(this);
 }
 
 Event *SearchEvent(EventList *this, char *name)

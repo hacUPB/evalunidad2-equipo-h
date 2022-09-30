@@ -1,2 +1,0 @@
-free(): invalid pointer
-../tester/run-tests.sh: line 27:  9104 Aborted                 (core dumped) ./main < tests/19.in

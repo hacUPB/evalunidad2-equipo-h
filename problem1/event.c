@@ -5,7 +5,7 @@
 Event *CreateEvent(char *name)
 {
     Event *event = malloc(sizeof(Event));
-    strncpy(event->eventName, name, strlen(name));
+    strncpy(event->eventName, name, strnlen(name,15));
     event->next = NULL;
     return event;
 }
